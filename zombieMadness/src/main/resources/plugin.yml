@@ -1,0 +1,16 @@
+# This is a sample plugin.yml
+# For more infomration refer to http://wiki.bukkit.org/Plugin_YAML
+main: edu.unca.twreese.zombieMadness.zombieMadness
+name: ${project.name}
+version: ${project.version}
+author: SampleAuthor
+description: ${project.description}
+commands:
+  zombie:
+    description: set the sample message
+    usage: /<command> message
+    permission: zombie
+permissions:
+  zombie:
+    description: gives all permissions of the SamplePlugin
+    default: true
